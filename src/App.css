@@ -1,0 +1,27 @@
+.App > h1 {
+  text-align: center;
+}
+
+.game-square{
+  display:grid;
+  height: 4rem;
+  width: 4rem;
+  padding: 0;
+  margin: 0.25rem;  
+  place-items: center;
+  border: 2px solid gray;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.gameBoard {
+  margin-right:auto;
+  margin-left: auto;
+  display: grid;
+  max-width: fit-content;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.win-screen {
+  text-align: center;
+}
